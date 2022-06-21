@@ -46,7 +46,7 @@ async def load_plugins(folder):
 async def startupmessage():
     try:
         if BOTLOG:
-            Config.CATUBLOGO = await iqqhtani.tgbot.send_file(BOTLOG_CHATID, "https://telegra.ph/file/1d792d855afb8ccb064dc.jpg", caption="♛ ⦙ تـمّ  اعـادة تشـغيل\n ميكاثون✓  :  [ 7.6 ] .\n\n♛ ⦙ للحصول على اوامر السورس\n أرسـل : (  `.اوامري`  ) \n\n♛ ⦙ لمـعرفة كيفية تغير بعض كلايش\n او صور السـورس  أرسـل  :\n (  `.مساعده`  )\n\n♛ ⦙ القناة الرسمية ميكاثون: @ghtanisaeed\n♛ ⦙ فارات سورس ميكاثون:@MEGGAX \n♛ ⦙ كلايش ميكاثون:  @MEGGAX\n ♛ ⦙التحديثات والاضافات :  @MEGGAX\n",                buttons=[(Button.url("مطور ميكاثون الرسمي", "https://t.me/kidcrl"),)],            )
+            Config.CATUBLOGO = await iqqhtani.tgbot.send_file(BOTLOG_CHATID, "https://telegra.ph/file/1d792d855afb8ccb064dc.jpg", caption="♛ ⦙ تـمّ  اعـادة تشـغيل\n ميكاثون✓  :  [ 7.6 ] .\n\n♛ ⦙ للحصول على اوامر السورس\n أرسـل : (  `.اوامري`  ) \n\n♛ ⦙ لمـعرفة كيفية تغير بعض كلايش\n او صور السـورس  أرسـل  :\n (  `.مساعده`  )\n\n♛ ⦙ القناة الرسمية ميكاثون: @MEGGAX\n♛ ⦙ فارات سورس ميكاثون:@MEGGAX \n♛ ⦙ كلايش ميكاثون:  @MEGGAX\n ♛ ⦙التحديثات والاضافات :  @MEGGAX\n",                buttons=[(Button.url("مطور ميكاثون الرسمي", "https://t.me/kidcrl"),)],            )
     except Exception as e:
         LOGS.error(e)
         return None
